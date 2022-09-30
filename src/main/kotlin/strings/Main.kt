@@ -9,6 +9,5 @@ fun main(args: Array<String>) {
     //Variáveis Imutáveis
     //use "val" caso queira que o valor de uma variável não seja alterado em nenhum momento do código
     val nome1 = "Fulano"
-    nome1 = "Fulano"
 
 }
