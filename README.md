@@ -3,14 +3,16 @@
     <img src="https://kotlinlang.org/docs/images/kotlin-logo.png" width="300px"/>
 </center>
 
-Este repositório tem como intuito doumentar meu aprendizado em Kotlin, mais especificamente os fundamentos da lingaguem.
-Podendo assim incentivar todos aqueles que estão começando.
+Este repositório tem como intuito documentar o meu aprendizado em Kotlin, mais especificamente os fundamentos da lingaguem.
+Podendo assim incentivar todos aqueles que vão começar.
 
 ## Projetos
 
 Exemplos de projeto:
 
 - Em desenvolvimento
+
+---
 
 
 ## Variaveis
@@ -24,11 +26,20 @@ Exemplo:<a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master
 
 ### Inferência de Tipo
 
-Não é considerado obrigatório que você declare o tipo de dado que a variável irá receber, entretanto caso não seja definido, o próprio
+Não é considerado obrigatório declarar o tipo do dado que a variável irá receber, entretanto, caso não seja definido, o próprio
 compilador irá fazer isso de forma implicita em tempo de compilação. A infêrencia de tipo pode ser útil caso você
-desejar trabalhar de forma especifica com uma variável.
+desejar trabalhar de forma específica com uma variável.
 
 Exemplo: <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/strings/inferenciaDeTipo.kt" target="_blank"> Exemplos de Inferência de Tipo</a>
+
+---
+
+## Operação Aritmética
+As operações matemáticas seguem o mesmo padrão das linguagens de programação
+
+<a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/operadoresAritmeticos/OperadoresAritmeticas.kt" target="_blank"> Exemplos de operação aritméticas</a>
+
+---
 
 
 ## References
