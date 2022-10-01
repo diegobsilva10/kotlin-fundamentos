@@ -27,8 +27,8 @@ Exemplo:<a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master
 ### Inferência de Tipo
 
 Não é considerado obrigatório declarar o tipo do dado que a variável irá receber, entretanto, caso não seja definido, o próprio
-compilador irá fazer isso de forma implicita em tempo de compilação. A infêrencia de tipo pode ser útil caso você
-desejar trabalhar de forma específica com uma variável.
+compilador irá fazer isso de forma implicita em tempo de compilação, o nome desse processo
+se chama "Inferência de Tipo"
 
 Exemplo: <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/strings/inferenciaDeTipo.kt" target="_blank"> Exemplos de Inferência de Tipo</a>
 
