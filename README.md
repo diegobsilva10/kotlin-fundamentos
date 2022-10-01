@@ -37,6 +37,14 @@ Exemplo: <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/maste
 ## Operação Aritmética
 As operações matemáticas seguem o mesmo padrão das linguagens de programação
 
+### Ordem de prescedência 
+É importante lembrar que, as operações matemáticas em Kotlin também tem ordem de precedência, isso interfere
+na forma como monta a operação.
+* 1 - Parênteses;
+* 2 - Mais/menos unário;
+* 3 - Multiplicação, divisão e módulo;
+* 4 - Adição e subtração;
+
 <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/operadoresAritmeticos/OperadoresAritmeticas.kt" target="_blank"> Exemplos de operação aritméticas</a>
 
 ---
