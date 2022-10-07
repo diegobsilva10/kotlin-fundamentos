@@ -49,11 +49,91 @@ na forma como monta a operação.
 
 ---
 
+## Funções
+
+Basicamente função é um "bloco" de um programa que pode realizar uma tarefa específica.
+A função ela é útil por que em vez de você escrever uma determinada tarefa várias vezes
+pode agrupar a tarefa em funções, neste caso economiza tempo de escrita de código
+e posteriormente caso tenha que fazer alguma refatoração, sera necessário mudar apenas a 
+a função, e não todo o código em sí.
+
+## Definindo funções 
+
+```
+fun nomeDaFuncao(){
+}
+```
+A sintaxe da função é simples, é seguida pela palavra reservada fun + nome da funçao + parametro da função + entre
+chaves o corpo da função, ou seja, a tarefa que a função vai realizar
+
+- link para exemplos de função simples sem parametro e retorno
+
+### Funções com parâmetros 
+Nenhuma função é obrigatório você definir os parâmetros que ela vai receber,
+isso vai depender da tarefa que você realizar, veja exemplo 
+
+```
+fun somarNumero (a: Int, b: Int){
+    println (a + b)
+}
+```
+A função ela pode receber N parâmetros, no caso acima, recebe apenas dois. Toda a 
+tarefa que a função irá realizar nós definimos no body, neste caso quando a função 
+for chamada, ela irá imprimir na tela do usuário o resultado dos números que a variável
+receber
+
+- link para exemplos de função com parametros
+
+### Função com retorno
+
+````
+fun imprimindoTexto(): String{
+    val texto = "Texto de exemplo"
+
+    return texto
+}
+````
+
+Existe apenas duas diferenças quando queremos declarar uma função com retorno definido
+atribuimos a ela o tipo de retorno, e ao final da instrução utilizamos a palavra reservada "return"
+
+- link para exemplo de função com retorno
+
+### Função de uma única linha
+Vamos simplificar a função do exemplo acima
+
+`````
+fun imprimindoTexto2() = "Texto de exemplo"
+}
+`````
+
+No caso da função de uma única linha, só é possível caso a função execute apenas uma intrução
+e também não é necessário dizer ao kotlin o tipo de retorno da função, já que o próprio kotlin, consegue interpretar
+
+- link de exemplo para função de uma única linha
+
+### Função anônima
+
+As funções anônimas são reconhecidas exatamente pela tarefa em que elas executam, ou pela referência 
+que se dá a elas, e as funções anônimas podem conter qualquer número de expressão.
+
+````
+
+val tamanhoDaString: (String) -> Int = {input ->
+    input.length
+}
+
+````
+No exemplo, temos uma função anônima que conta como entrada uma String e a saída retornada
+é do tipo Int.
+
+-Link para exemplo de funções anonimas
 
 ## References
 
-- [Learn the Kotlin programming language](https://developer.android.com/kotlin/learn?gclsrc=aw.ds&gclid=CjwKCAjw9e6SBhB2EiwA5myr9tk-mZhoAytl5-3nJeQ0lgYnyIGcs5GFh9-aN1tDvkwvcrFEAJZdLhoC0lAQAvD_BwE)
-- [Get started with Kotlin - KotlinLang.org](https://kotlinlang.org/docs/getting-started.html)
+- [Documentação Kotlin](https://kotlinlang.org/docs/basic-syntax.html)
+- [Lista de exemplos sobre Kotlin Básico](https://developer.android.com/kotlin/learn) 
+- [Mais exemplos e exercicios](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-program#4)
+- [Mais exemplos e exercicios](https://hyperskill.org/tracks/18)
 
----
 developed by [Diego Silva](https://www.linkedin.com/in/diego-silva-2479711a7/)
