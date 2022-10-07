@@ -66,7 +66,9 @@ fun nomeDaFuncao(){
 A sintaxe da função é simples, é seguida pela palavra reservada fun + nome da funçao + parametro da função + entre
 chaves o corpo da função, ou seja, a tarefa que a função vai realizar
 
-- link para exemplos de função simples sem parametro e retorno
+- <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exemploFuncoesSimples.kt" target="_blank"> Exemplos de Funções Simples</a>
+
+
 
 ### Funções com parâmetros 
 Nenhuma função é obrigatório você definir os parâmetros que ela vai receber,
@@ -82,7 +84,7 @@ tarefa que a função irá realizar nós definimos no body, neste caso quando a 
 for chamada, ela irá imprimir na tela do usuário o resultado dos números que a variável
 receber
 
-- link para exemplos de função com parametros
+-  <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exemploFun%C3%A7oesComParametros.kt" target="_blank"> Exemplos de Funções com parâmetro</a>
 
 ### Função com retorno
 
@@ -97,7 +99,8 @@ fun imprimindoTexto(): String{
 Existe apenas duas diferenças quando queremos declarar uma função com retorno definido
 atribuimos a ela o tipo de retorno, e ao final da instrução utilizamos a palavra reservada "return"
 
-- link para exemplo de função com retorno
+-  <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exemploFuncoesComRetorno.kt" target="_blank"> Exemplos de Funções com retorno</a>
+
 
 ### Função de uma única linha
 Vamos simplificar a função do exemplo acima
@@ -110,7 +113,8 @@ fun imprimindoTexto2() = "Texto de exemplo"
 No caso da função de uma única linha, só é possível caso a função execute apenas uma intrução
 e também não é necessário dizer ao kotlin o tipo de retorno da função, já que o próprio kotlin, consegue interpretar
 
-- link de exemplo para função de uma única linha
+-<a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exemploFuncaoUnicaLinha.kt" target="_blank"> Exemplos de Funções com uma única linha</a>
+
 
 ### Função anônima
 
@@ -127,7 +131,8 @@ val tamanhoDaString: (String) -> Int = {input ->
 No exemplo, temos uma função anônima que conta como entrada uma String e a saída retornada
 é do tipo Int.
 
--Link para exemplo de funções anonimas
+-<a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exemploFuncaoAnonima.kt" target="_blank"> Exemplos de Funções Anônimas</a>
+
 
 ## References
 
