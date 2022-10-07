@@ -13,4 +13,5 @@ they created a function totalLembas that counts how much bread they have in tota
 Your task is to invoke the function totalLembas; pass breadFromFrodo and breadFromSam
 as arguments.
 
-result: -link do resultado 
+- <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exercicioFuncao1.kt" target="_blank"> Resposta para o primeiro Exercício</a>
+
