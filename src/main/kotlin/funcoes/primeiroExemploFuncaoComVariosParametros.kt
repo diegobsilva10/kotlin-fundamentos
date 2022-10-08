@@ -1,3 +1,4 @@
+package funcoes
 fun main (){
     listaDePersonagens("Sasuke", "Itachi", "Naruto", "Nagato")
 

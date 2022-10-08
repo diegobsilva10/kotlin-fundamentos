@@ -1,3 +1,4 @@
+package funcoes
 fun main(){
     recebeTiposDeDados(1, " ", 'c',7f, true, false, null, "String" )
 
