@@ -1,7 +1,14 @@
 
 fun main() {
 
-    // Primeira Solução
+    primeiraSolucao()
+
+    solucaoSimplificada()
+
+}
+
+fun primeiraSolucao(){
+
     print("Digite um número: ")
     val breadFromFrodo = readln()!!.toString()
     print("Digite outro número: ")
@@ -9,6 +16,10 @@ fun main() {
 
     totalLembas(breadFromFrodo, breadFromSam)
     println()
+
+}
+
+fun solucaoSimplificada(){
 
     //Solução Simplificada
     print("Digite um número: ")
