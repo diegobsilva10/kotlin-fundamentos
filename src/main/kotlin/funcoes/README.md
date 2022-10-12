@@ -70,7 +70,7 @@ O preço padrão do ingresso é US$ 30 para pessoas com idade entre 13 e 60 anos
 O preço de US$ 20 do ingresso para idosos é válido para pessoas com 61 anos ou mais. Suponha que a idade máxima de um frequentador de cinema seja de 100 anos.
 Um valor -1 indica que o preço é inválido quando um usuário inserir uma idade fora das especificações.
 
-- <a href="https://github.com/diegobsilva10/kotlin-fundamentos/tree/master/src/main/kotlin/funcoes" target="_blank"> Resposta parao sétimo exercicio </a>
+- <a href="https://github.com/diegobsilva10/kotlin-fundamentos/blob/master/src/main/kotlin/funcoes/exercicioFuncao7.kt" target="_blank"> Resposta para o sétimo exercicio </a>
 
 
 ## References
